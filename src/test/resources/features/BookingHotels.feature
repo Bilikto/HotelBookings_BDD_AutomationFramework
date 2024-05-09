@@ -1,6 +1,6 @@
 Feature: Booking feature
 
-  Scenario: Verify is able to book hotel
+  Scenario: Verify user is able to sort hotels
     Given user open website
     When user enter going to destination "New York"
     And user enter travel dates
