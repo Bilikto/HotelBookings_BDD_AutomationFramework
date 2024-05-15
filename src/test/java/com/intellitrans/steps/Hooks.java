@@ -12,7 +12,7 @@ public class Hooks {
     }
 
 
-    @After
+//    @After
     public void cleanUp() {
         DriverUtils.getDriver().quit();
     }

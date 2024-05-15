@@ -1,5 +1,6 @@
 Feature: Booking feature
 
+  @Regression
   Scenario: Verify user is able to sort hotels
     Given user open website
     When user enter going to destination "New York"
@@ -9,6 +10,3 @@ Feature: Booking feature
     Then verify user is on Hotel listing page
     When user sort by star rating
     Then print prices over $ 500
-
-
-
